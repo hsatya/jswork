@@ -36,31 +36,31 @@
 
 /* ------------------------------------------------------------------------- */
 // LECTURE: Basic Operators
-const country = "India";
-const continent = "Asia";
-let population = 1_393_409_038;
-const isIsland = false;
-const language = "Hindi";
-let halfPopulation = population / 2;
-population++;
-console.log(population, halfPopulation);
-let finPopulation = 6000000;
-console.log(
-  "Population of my country is greater than Finlands Population:",
-  population > finPopulation
-);
-console.log(
-  "Population of my country is greater than average Population:",
-  population > 33000000
-);
-console.log(
-  country +
-    " is in " +
-    continent +
-    ", its " +
-    population * 0.6 +
-    " population speak language " +
-    language +
-    "."
-);
+// const country = "India";
+// const continent = "Asia";
+// let population = 1_393_409_038;
+// const isIsland = false;
+// const language = "Hindi";
+// let halfPopulation = population / 2;
+// population++;
+// console.log(population, halfPopulation);
+// let finPopulation = 6000000;
+// console.log(
+//   "Population of my country is greater than Finlands Population:",
+//   population > finPopulation
+// );
+// console.log(
+//   "Population of my country is greater than average Population:",
+//   population > 33000000
+// );
+// console.log(
+//   country +
+//     " is in " +
+//     continent +
+//     ", its " +
+//     population * 0.6 +
+//     " population speak language " +
+//     language +
+//     "."
+// );
 /* ------------------------------------------------------------------------- */
