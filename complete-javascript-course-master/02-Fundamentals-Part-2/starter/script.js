@@ -35,4 +35,33 @@ console.log(appleJuice);
 const appleOrangeJuice = fruitProcessor(2, 4);
 console.log(appleOrangeJuice);
 */
-////////////// Functions //////////////
+
+////////////// Function Declaeration vs Function Expression //////////////
+/*
+// const age1 = calcAge1(1986);
+// Function Declaeration
+function calcAge1(birthYear) {
+  return new Date().getFullYear() - birthYear;
+}
+
+const age1 = calcAge1(1986);
+
+// console.log(`You are ${calcAge1(1986)} years old.`);
+// const age1 = calcAge1(1986);
+// const age2 = calcAge2(1986);
+
+// Function Expression
+// const age2 = calcAge2(1986);
+const calcAge2 = function (birthYear) {
+  return new Date().getFullYear() - birthYear;
+};
+
+// console.log(`You are ${calcAge2(1986)} years old.`);
+const age2 = calcAge2(1986);
+
+console.log(age1, age2);
+console.log(typeof age1, typeof age2);
+
+// console.log(x);
+// var x = 5;
+*/
