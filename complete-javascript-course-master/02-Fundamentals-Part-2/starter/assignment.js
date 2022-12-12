@@ -83,3 +83,46 @@
 // console.log(neighbours);
 /* ------------------------------------------------------------------------- */
 // LECTURE: Introduction to Objects
+// const myCountry = {
+//   country: "India",
+//   capital: "New Delhi",
+//   language: "Hindi",
+//   population: "1200 Millions",
+//   neighbours: [
+//     "Bangladesh",
+//     "Bhutan",
+//     "China",
+//     "Myanmar",
+//     "Nepal",
+//     "Pakistan",
+//     "Sri Lanka",
+//   ],
+// };
+/* ------------------------------------------------------------------------- */
+// LECTURE: Dot vs. Bracket Notation
+// const myCountry = {
+//   country: "India",
+//   capital: "New Delhi",
+//   language: "Hindi",
+//   population: 1200,
+//   neighbours: [
+//     "Bangladesh",
+//     "Bhutan",
+//     "China",
+//     "Myanmar",
+//     "Nepal",
+//     "Pakistan",
+//     "Sri Lanka",
+//   ],
+// };
+
+// console.log(
+//   `${myCountry.country} has ${myCountry.population} millions ${myCountry.language}ish-speaking people, ${myCountry.neighbours.length} neighbouring countries and a capital called ${myCountry.capital}.`
+// );
+// console.log(myCountry);
+// myCountry.population = myCountry.population + 200;
+// console.log(myCountry);
+// myCountry["population"] = myCountry["population"] - 200;
+// console.log(myCountry);
+/* ------------------------------------------------------------------------- */
+// LECTURE: Object Methods
